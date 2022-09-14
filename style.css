@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Source+Code+Pro:wght@300&display=swap');
+
+
+/* for alert in home */
+
+.alert {
+    padding: 20px;
+    background-color: #f44336; /* Red */
+    color: white;
+    /* margin-bottom: 15px; */
+  }
+  
+  /* The close button */
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  /* When moving the mouse over the close button */
+  .closebtn:hover {
+    color: black;
+  }
+
+
+
+/* for home */
+
+
+.sidebar{
+    background-color: rgb(194, 188, 188);
+    /* background-color:red; */
+    width: 20vw;
+    font-family: 'Fira Sans', sans-serif;
+    height: 100vh;
+    font-size: 4vh;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.containerSidebar{
+    display: flex;
+} 
+
+.sidebar nav{
+    padding: 35px;
+}
+.sidebar nav li{
+    list-style: none;
+    padding: 22px 0;
+}
+.infoContainer{
+    /* background-color: rgb(202,9,128); */
+    height: 60vh;
+    width: 73vw;
+    padding-top: 15vh;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    display : flex;
+    justify-content: space-around ;
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+    width: 60vw;
+}
+.devPic{
+    padding: 0 3vw;
+    width: 20vw;
+}
+.devPic img{
+    height: 70vh;
+}
+.hello{
+    font-size: 65px;
+}
+.name{
+    font-weight: bold;
+    font-size: 50px;
+    font-family: 'Fira Sans', sans-serif;
+}
+.about{
+    font-size: 40px;
+    
+}
+.buttons button{
+    height: 10vh;
+    width: 10vw;
+    background-color: rgb(9, 122, 160);
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 3vh;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+.button button:hover{
+    color: rgb(9, 122, 160);
+    background-color: white;
+    text-decoration: none;
+}
+.moreAbout{
+    font-size: 22px;
+    margin: 20px 0;
+}
+.sidebar nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.container{
+    display: flex;
+}
+
+
+/* for contact form */
+
+
+
+.contactForm{
+    font-family: 'Fira Sans', sans-serif;
+    padding: 0 2vw;
+    padding-top: 5vh;
+}
+.containerMain h1{
+    font-family: 'Source Code Pro', monospace;
+    padding: 5vh 0;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    text-align: center;
+}
+.enquiryInputArea{
+    display: flex;
+    flex-direction: column;
+    padding: 1vh 0; 
+}
+.nameInputArea{
+    display: flex;
+    flex-direction: column;
+    padding: 1vh 0;
+}
+.emailInputArea{
+    display: flex;
+    flex-direction: column;
+    padding: 1vh 0;
+}
+.phoneInputArea{
+    display: flex;
+    flex-direction: column;
+    padding: 1vh 0;
+
+}
+.emailBox{
+    width: 20vw;
+}
+.phoneNoBox{
+    width: 20vw;
+}
+.enquiryBox{
+    width: 20vw;
+    height: 20vh;
+}
+.clientNameBox{
+    width: 20vw;
+}
+.emailHelp{
+    font-size: 2vh;
+    color: orangered;
+}
+.checkBoxArea{
+    padding: 1vh 0;
+}
+.submitButton{
+    padding: 2vh 3vw;
+    background-color: rgb(9, 122, 160);
+    color: white;
+    border-radius: 10px;
+    margin-top: 2vh;
+}
+.submitButton:hover{
+    padding: 2vh 3vw;
+    color: rgb(9, 122, 160);
+    background-color: white;
+    border-radius: 10px;
+}
+.containerMain .main .image img{
+    /* background-color: red; */
+    height: 70vh;
+    width: 40vw;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* for blogs */
+
+
+.btn-sm{
+    padding: 1vh 2vw;
+    background-color: rgb(9, 122, 160);
+    color: white;
+    border-radius: 20px;
+    margin : 2vh;
+}
+.btn-sm:hover{
+    padding: 1vh 2vw;
+    color: rgb(9, 122, 160);
+    background-color: white;
+    border-radius: 20px;
+}
+.blogMain{
+    height: 100vh;
+    width: 80vw;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.blogContainer{
+    height: 80vh;
+    width: 70vw;
+    /* background-color: blue; */
+    display: flex;
+}
+.blogMain h1{   
+    padding: 3vh;
+    margin: 6vh 0;
+}
+.box-ht-wt{
+    height: 35vh;
+    width: 35vw;
+}
+
+
+/* my intro page */
+
+
+.introMain{
+    display: flex;
+    /* background-color: rebeccapurple; */
+    width: 80vw;
+}
+.introMain .devInfo{
+    /* background-color: red; */
+    padding: 0 2vw;
+}
+.introMain .devPic{
+    /* background-color: blue; */
+    padding: 14vh 2vw;
+    
+}
+.introMain .devPic img{
+    height: 70vh;
+}
+.introMain .skillContainer ul li{
+    list-style: none;
+}
+.skillContainer{
+    margin: 5vh 0;
+}
+.skillContainer h2{
+    margin-bottom: 2.5vh;
+
+}
+.projects{
+    display: flex;
+    /* background-color: blue; */
+    width: 50vw;
+
+}
+.project{
+    /* background-color: red; */
+    height: 30vh;
+    width: 30vw;
+    margin: 3vh 1vw;
+
+}
+.projectContainer .projects .project h3{
+    margin-bottom: 2vh;
+}
+
+
+
+/* services page */
+
+
+.main .infoContainer .devInfo h2 a{
+    text-decoration: none;
+}
+
